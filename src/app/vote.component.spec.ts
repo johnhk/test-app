@@ -1,7 +1,10 @@
 import { VoteComponent } from './vote.component'; 
 
 describe('VoteComponent', () => {
-  it('', () => {
+  var component: VoteComponent; 
+
+  beforeEach(() => {
+    component = new VoteComponent();
   });
 
   it('', () => {
